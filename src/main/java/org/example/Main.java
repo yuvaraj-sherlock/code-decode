@@ -18,8 +18,16 @@ public class Main {
         System.out.println(firstUniqueChar);*/
 
         //Program to Find the Missing Number from Array (0 to n)
-        List<Integer> list = Arrays.asList(0,3,2,5,4,1);
+        /*List<Integer> list = Arrays.asList(0,3,2,5,4,1);
         int missingNumber = FindMissingNumber.findMissingNumber(list);
-        System.out.println(missingNumber);
+        System.out.println(missingNumber);*/
+
+        //Program to find the total number of subordinates (both direct and indirect) for any given manager
+        String manager = "B";
+        System.out.println("Manager: "+manager);
+        System.out.println("Subordinates: ");
+        int count = TeamSize.findTeamSize(manager);
+        System.out.println();
+        System.out.println("Total Subordinates: "+count);
     }
 }
